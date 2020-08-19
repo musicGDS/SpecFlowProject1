@@ -1,0 +1,27 @@
+﻿2020-08-18T08:35:23.4048498+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-08-18T08:35:23.4050441+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.41 in Framework netcore31 in x64 mode execution started
+2020-08-18T08:35:23.4050483+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-08-18T08:35:23.4066948+03:00;VSTestExecutionThread;Info;Current UserName: 'music', MachineName: 'ASUSSOUND'
+2020-08-18T08:35:23.4512130+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecFlowProject1.dll
+2020-08-18T08:35:23.4514179+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\music\source\repos\SpecFlowProject1\TestResults" (default)
+2020-08-18T08:35:23.4514730+03:00;VSTestExecutionThread;Info;Profile: 
+2020-08-18T08:35:23.5178772+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\music\source\repos\SpecFlowProject1\TestResults\Unnamed project__2020-08-18T083523.log
+2020-08-18T08:35:23.5228429+03:00;Thread#12;Info;Checking activation
+2020-08-18T08:35:24.0312567+03:00;Thread#12;Error;****************************************************************************************************************
+2020-08-18T08:35:24.0315104+03:00;Thread#12;Error;*                                           SpecFlow+ Runner                                                   *
+2020-08-18T08:35:24.0316224+03:00;Thread#12;Error;****************************************************************************************************************
+2020-08-18T08:35:24.0319878+03:00;Thread#12;Error;Please sign-up for your free SpecFlow account or sign-in with your already existing account here:
+2020-08-18T08:35:24.0320841+03:00;Thread#12;Error;https://account.specflow.org/clientactivation/welcome/Runner/EB7A1099D7354BD0A38E103663EE5EB7D8EDFA4835B5D08FFED6A1903B0462B918D5CCF4/NotActivatedYet
+2020-08-18T08:35:24.0321648+03:00;Thread#12;Error;to execute your Scenarios again.
+2020-08-18T08:35:24.0323607+03:00;Thread#12;Error;If you are reading this message on a build agent, we couldn't recognize the agent.
+2020-08-18T08:35:24.0324439+03:00;Thread#12;Error;Please get in touch with us at support@specflow.org.
+2020-08-18T08:35:24.0326250+03:00;Thread#12;Error;****************************************************************************************************************
+2020-08-18T08:35:24.0367988+03:00;Thread#12;Error;No tests executed (activation needed)
+2020-08-18T08:35:24.0586321+03:00:Total: 0
+2020-08-18T08:35:24.0608857+03:00:Succeeded: 0
+2020-08-18T08:35:24.0612215+03:00:Ignored: 0
+2020-08-18T08:35:24.0615246+03:00:Pending: 0
+2020-08-18T08:35:24.0625336+03:00:Skipped: 0
+2020-08-18T08:35:24.0629029+03:00:Failed: 0
+2020-08-18T08:35:24.0687640+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

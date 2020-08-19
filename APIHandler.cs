@@ -21,19 +21,6 @@ namespace SpecFlowProject1
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
-
-            //try
-            //{
-            //    Animal animal = new Animal();
-               
-            //    // Get the animal
-            //    animal = await GetAnimalAsync("https://api.publicapis.org/entries?title=RandomDog");
-            //    ShowAnimal(animal);
-            //}
-            //catch (Exception e)
-            //{
-            //    Console.WriteLine(e.Message);
-            //}
         }
 
         public static async Task<Animal> GetAnimalAsync(string path)

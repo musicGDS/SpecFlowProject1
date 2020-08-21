@@ -5,7 +5,7 @@ using TechTalk.SpecFlow;
 namespace SpecFlowProject1.Steps
 {
     [Binding]
-    public class APIResponseSteps
+    public class AnimalSteps
     {
         private APIHandler apiHandler = new APIHandler();
         private Animal _animal = new Animal();

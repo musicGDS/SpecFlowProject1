@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using System;
+using System.Linq;
 using TechTalk.SpecFlow;
 
 namespace SpecFlowProject1.Steps
@@ -24,14 +25,14 @@ namespace SpecFlowProject1.Steps
         public void GivenApiStringUri(string url)
         {
             _url = url;
-            _url = "https://api.publicapis.org";
+            _url = "https://api.publicapis.org/";
         }
 
         [When(@"request GET API giving title")]
         public void WhenRequestGETAPIGivingTitle()
         {
             apiHandler = new APISharpHandler(_url);
-            _actualResult = animalHandler.GetDescription(apiHandler.GetAnimal(_title));
+            _actualResult = animalHandler.GetDescription(apiHandler.GetAnimal(_title).First());
             Console.WriteLine(_actualResult);
 
         }   

@@ -8,7 +8,6 @@ namespace SpecFlowProject1
     {
         public string GetDescription(Animal animal)
         {
-            Console.WriteLine(animal.Description);
             return animal.Description;
         }
     }

@@ -1,0 +1,186 @@
+﻿2020-08-21T22:14:46.3540643+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-08-21T22:14:46.3542443+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.41 in Framework netcore31 in x64 mode execution started
+2020-08-21T22:14:46.3542484+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-08-21T22:14:46.3559235+03:00;VSTestExecutionThread;Info;Current UserName: 'music', MachineName: 'ASUSSOUND'
+2020-08-21T22:14:46.3851424+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecFlowProject1.dll
+2020-08-21T22:14:46.3853658+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\music\source\repos\SpecFlowProject1\TestResults" (default)
+2020-08-21T22:14:46.3854265+03:00;VSTestExecutionThread;Info;Profile: 
+2020-08-21T22:14:46.4373655+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\music\source\repos\SpecFlowProject1\TestResults\Unnamed project__2020-08-21T221446.log
+2020-08-21T22:14:46.4425689+03:00;Thread#12;Info;Checking activation
+2020-08-21T22:14:46.5409662+03:00;Thread#12;Info;Activated.
+2020-08-21T22:14:46.5412024+03:00;Thread#12;Info;Activation check completed
+2020-08-21T22:14:46.5412965+03:00;Thread#12;Info;Starting test run
+2020-08-21T22:14:46.6203424+03:00;Thread#12;Info;Discovering target: Default
+2020-08-21T22:14:46.6204790+03:00;Thread#12;Info;Discovering tests from assembly: C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecFlowProject1.dll
+2020-08-21T22:14:46.7361298+03:00;Thread#12;Info;Discovered tests from assembly: C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecFlowProject1.dll
+2020-08-21T22:14:46.7375190+03:00:Test Suite Dump
+2020-08-21T22:14:46.7391055+03:00:#0: Unnamed project/ - 
+2020-08-21T22:14:46.7391288+03:00:#1: Default - 
+2020-08-21T22:14:46.7391324+03:00:#2: SpecFlowProject1 - 
+2020-08-21T22:14:46.7391345+03:00:#3: API response - 
+2020-08-21T22:14:46.7402645+03:00:#4: Get API GET response entering title - TestAssembly:SpecFlowProject1/Feature:API+response/Scenario:Get+API+GET+response+entering+title
+2020-08-21T22:14:46.7403319+03:00:End: Test Suite Dump
+2020-08-21T22:14:46.7573215+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-08-21T22:14:46.7594913+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-08-21T22:14:46.7595829+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-08-21T22:14:46.7658590+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-08-21T22:14:46.7658887+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-08-21T22:14:46.7658982+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-08-21T22:14:46.7659053+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-08-21T22:14:46.7673427+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-08-21T22:14:46.7699224+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-08-21T22:14:46.7736676+03:00:Thread #0: creating new test thread executor for SpecFlowProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-08-21T22:14:46.7782981+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-08-21T22:14:46.7786000+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-08-21T22:14:46.8109490+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-08-21T22:14:46.8128000+03:00:starting Out Of Process Executor
+2020-08-21T22:14:46.8532750+03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-08-21T22:14:46.8557301+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-08-21T22:14:46.8557402+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-08-21T22:14:46.8568391+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:46.8571750+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-08-21T22:14:46.8572616+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-08-21T22:14:46.8573233+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:46.8637596+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7'
+2020-08-21T22:14:46.8637769+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.VisualStudio.Validation.dll'
+2020-08-21T22:14:46.8638493+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.VisualStudio.Validation.exe'
+2020-08-21T22:14:46.8638978+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7'
+2020-08-21T22:14:46.8640443+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7'
+2020-08-21T22:14:46.8640535+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\Microsoft.VisualStudio.Validation.dll'
+2020-08-21T22:14:46.8641010+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\Microsoft.VisualStudio.Validation.exe'
+2020-08-21T22:14:46.8641460+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7'
+2020-08-21T22:14:46.8642860+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7'
+2020-08-21T22:14:46.8642939+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7\Microsoft.VisualStudio.Validation.dll'
+2020-08-21T22:14:46.8643485+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7\Microsoft.VisualStudio.Validation.exe'
+2020-08-21T22:14:46.8643915+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7'
+2020-08-21T22:14:46.8672212+03:00:Starting callback TCP Rpc server
+2020-08-21T22:14:46.8835821+03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-08-21T22:14:46.8836274+03:00:Started callback TCP Rpc server on port 32768
+2020-08-21T22:14:46.8836316+03:00:Starting logger TCP Rpc server
+2020-08-21T22:14:46.8854481+03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-08-21T22:14:46.8854713+03:00:Started logger TCP Rpc server on port 32769
+2020-08-21T22:14:47.0230001+03:00:Executing test executor at 'dotnet' 'exec "C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 9108 --uniqueId "2020-08-21T221446" --outputFolder "C:\Users\music\source\repos\SpecFlowProject1\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:47.0296518+03:00:Executor with PID 18156 has been started successfully.
+2020-08-21T22:14:47.0333998+03:00:Out of Process Executor 18156 started
+2020-08-21T22:14:47.0334203+03:00:Waiting for endpoint
+2020-08-21T22:14:47.4091994+03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-08-21T22:14:47.4092199+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-08-21T22:14:47.4092232+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-08-21T22:14:47.4092287+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:47.4092309+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-08-21T22:14:47.4092726+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-08-21T22:14:47.4093309+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:47.4098667+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7'
+2020-08-21T22:14:47.4098751+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.VisualStudio.Threading.dll'
+2020-08-21T22:14:47.4099285+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\Microsoft.VisualStudio.Threading.exe'
+2020-08-21T22:14:47.4099686+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7'
+2020-08-21T22:14:47.4100867+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7'
+2020-08-21T22:14:47.4100943+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\Microsoft.VisualStudio.Threading.dll'
+2020-08-21T22:14:47.4101383+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\Microsoft.VisualStudio.Threading.exe'
+2020-08-21T22:14:47.4101777+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7'
+2020-08-21T22:14:47.4103046+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7'
+2020-08-21T22:14:47.4103135+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7\Microsoft.VisualStudio.Threading.dll'
+2020-08-21T22:14:47.4103594+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7\Microsoft.VisualStudio.Threading.exe'
+2020-08-21T22:14:47.4103978+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7'
+2020-08-21T22:14:47.6317449+03:00:Remote executor port received: 32770
+2020-08-21T22:14:47.6321194+03:00:Creating executor TCP client on port 32770
+2020-08-21T22:14:47.6325681+03:00:Created executor TCP client on port 32770
+2020-08-21T22:14:47.6325759+03:00:Connecting to remote executor TCP server
+2020-08-21T22:14:47.6334334+03:00:Connected remote executor TCP server
+2020-08-21T22:14:47.6336296+03:00:trying to connect to Out of Process Executor the 1 attempt
+2020-08-21T22:14:47.6336413+03:00:Connection to Out of Process Executor established in the 1 attempt
+2020-08-21T22:14:47.7716887+03:00:2020-08-21T22:14:47.7705990+03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecFlowProject1.dll on test thread #0
+2020-08-21T22:14:47.7771728+03:00:Endpoint 18156 started
+2020-08-21T22:14:47.7948857+03:00:2020-08-21T22:14:47.7944839+03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-08-21T22:14:47.9174341+03:00:2020-08-21T22:14:47.9170067+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-08-21T22:14:47.9204505+03:00:2020-08-21T22:14:47.9201638+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-08-21T22:14:47.9234034+03:00:2020-08-21T22:14:47.9231175+03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\music\.nuget\packages\specflow\3.3.30\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-08-21T22:14:48.0602774+03:00:2020-08-21T22:14:48.0592002+03:00:Thread#0:T:-> Loading plugin C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-08-21T22:14:48.0639427+03:00:2020-08-21T22:14:48.0629534+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-08-21T22:14:48.0698880+03:00:2020-08-21T22:14:48.0689339+03:00:Thread#0:T:-> Using default config
+2020-08-21T22:14:48.0827674+03:00:2020-08-21T22:14:48.0816397+03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-08-21T22:14:48.0856003+03:00:2020-08-21T22:14:48.0849198+03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-08-21T22:14:48.0865026+03:00:2020-08-21T22:14:48.0862030+03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\music\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-08-21T22:14:48.0877520+03:00:2020-08-21T22:14:48.0875009+03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-08-21T22:14:48.0881258+03:00:2020-08-21T22:14:48.0879297+03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-08-21T22:14:48.0886364+03:00:2020-08-21T22:14:48.0884242+03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\music\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-08-21T22:14:48.0976763+03:00:2020-08-21T22:14:48.0972097+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-08-21T22:14:48.0981553+03:00:2020-08-21T22:14:48.0979311+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-08-21T22:14:48.0988911+03:00:2020-08-21T22:14:48.0986627+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\music\.nuget\packages\microsoft.testplatform.objectmodel\16.7.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-08-21T22:14:48.1362847+03:00:2020-08-21T22:14:48.1357962+03:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-08-21T22:14:48.1367777+03:00:2020-08-21T22:14:48.1365613+03:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-08-21T22:14:48.1373204+03:00:2020-08-21T22:14:48.1370910+03:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\music\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-08-21T22:14:48.3395393+03:00:Thread#0: Test #4/0 is started on thread #0
+2020-08-21T22:14:48.3666473+03:00:2020-08-21T22:14:48.3661286+03:00:Thread#0:B:Given the title string "RandomDog"
+2020-08-21T22:14:48.3898241+03:00:2020-08-21T22:14:48.3893176+03:00:Thread#0:T:done: AnimalSteps.GivenTheTitleString("RandomDog") (0,0s)
+2020-08-21T22:14:48.3915775+03:00:2020-08-21T22:14:48.3912940+03:00:Thread#0:B:And Api string Uri "https://api.publicapis.org"
+2020-08-21T22:14:48.3928662+03:00:2020-08-21T22:14:48.3925921+03:00:Thread#0:T:done: AnimalSteps.GivenApiStringUri("https://api.publi...") (0,0s)
+2020-08-21T22:14:48.3934759+03:00:2020-08-21T22:14:48.3932557+03:00:Thread#0:B:When request GET API giving title
+2020-08-21T22:14:48.3949041+03:00:2020-08-21T22:14:48.3946245+03:00:Assembly resolving RestSharp, Version=106.11.4.0, Culture=neutral, PublicKeyToken=598062e77f915f75
+2020-08-21T22:14:48.3953983+03:00:2020-08-21T22:14:48.3951463+03:00:[AssemblyCache] Trying to resolve 'RestSharp' from .deps.json file
+2020-08-21T22:14:48.3960279+03:00:2020-08-21T22:14:48.3957647+03:00:[AssemblyCache] Resolved 'RestSharp' to 'C:\Users\music\.nuget\packages\restsharp\106.11.4\lib\netstandard2.0\RestSharp.dll'
+2020-08-21T22:14:49.4168677+03:00:2020-08-21T22:14:49.4156129+03:00:Thread#0:T:Random pictures of dogs
+2020-08-21T22:14:49.4185684+03:00:2020-08-21T22:14:49.4179249+03:00:Thread#0:T:done: AnimalSteps.WhenRequestGETAPIGivingTitle() (1,0s)
+2020-08-21T22:14:49.4200960+03:00:2020-08-21T22:14:49.4195188+03:00:Thread#0:B:Then the Description should be "Random pictures of dogs"
+2020-08-21T22:14:49.4221993+03:00:2020-08-21T22:14:49.4216615+03:00:Assembly resolving nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb
+2020-08-21T22:14:49.4231284+03:00:2020-08-21T22:14:49.4226269+03:00:[AssemblyCache] Trying to resolve 'nunit.framework' from .deps.json file
+2020-08-21T22:14:49.4243150+03:00:2020-08-21T22:14:49.4238136+03:00:[AssemblyCache] Resolved 'nunit.framework' to 'C:\Users\music\.nuget\packages\nunit\3.12.0\lib\netstandard2.0\nunit.framework.dll'
+2020-08-21T22:14:49.4345257+03:00:2020-08-21T22:14:49.4338257+03:00:Thread#0:T:done: AnimalSteps.ThenTheDescriptionShouldBe("Random pictures o...") (0,0s)
+2020-08-21T22:14:49.4470617+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-08-21T22:14:49.4471462+03:00:Thread#:Scheduler: at the end of normal test queue
+2020-08-21T22:14:49.4471513+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-08-21T22:14:49.4471601+03:00:Thread#0:Scheduler: No more tests for thread
+2020-08-21T22:14:49.4954357+03:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 1,1547786 seconds
+2020-08-21T22:14:49.5043804+03:00:2020-08-21T22:14:49.5040456+03:00:Got Deinitialize Signal
+2020-08-21T22:14:49.5083811+03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-08-21T22:14:49.5096941+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-08-21T22:14:49.5111243+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-08-21T22:14:49.5124062+03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-08-21T22:14:49.5124233+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-08-21T22:14:49.5124299+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-08-21T22:14:49.5124364+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:49.5124405+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-08-21T22:14:49.5124862+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-08-21T22:14:49.5125299+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1'
+2020-08-21T22:14:49.5132430+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7'
+2020-08-21T22:14:49.5132514+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\System.Diagnostics.Process.resources.dll'
+2020-08-21T22:14:49.5133091+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7\System.Diagnostics.Process.resources.exe'
+2020-08-21T22:14:49.5133504+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.7'
+2020-08-21T22:14:49.5134720+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7'
+2020-08-21T22:14:49.5134811+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\System.Diagnostics.Process.resources.dll'
+2020-08-21T22:14:49.5135274+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7\System.Diagnostics.Process.resources.exe'
+2020-08-21T22:14:49.5135942+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.7'
+2020-08-21T22:14:49.5137497+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7'
+2020-08-21T22:14:49.5137578+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7\System.Diagnostics.Process.resources.dll'
+2020-08-21T22:14:49.5138079+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7\System.Diagnostics.Process.resources.exe'
+2020-08-21T22:14:49.5138503+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.7'
+2020-08-21T22:14:49.5145517+03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-08-21T22:14:49.5214507+03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-08-21T22:14:49.5214840+03:00:Thread#:Scheduler: at the end of normal test queue
+2020-08-21T22:14:49.5214961+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-08-21T22:14:49.5238566+03:00;Thread#12;Info;test run finished
+2020-08-21T22:14:49.5240341+03:00;Thread#12;Info;publishing test results
+2020-08-21T22:14:49.5241986+03:00;Thread#12;Info;Not publishing results.
+2020-08-21T22:14:49.5242915+03:00;Thread#12;Info;test results published
+2020-08-21T22:14:49.5243752+03:00;Thread#12;Info;generating reports
+2020-08-21T22:14:49.6170093+03:00;Thread#12;Info;Starting external report generation process
+2020-08-21T22:14:51.5090885+03:00;Thread#12;Info;Successfully generated reports.
+2020-08-21T22:14:51.5112774+03:00;Thread#12;Info;Successfully generated reports
+2020-08-21T22:14:51.5179430+03:00:Total: 1
+2020-08-21T22:14:51.5199555+03:00:Succeeded: 1
+2020-08-21T22:14:51.5202850+03:00:Ignored: 0
+2020-08-21T22:14:51.5205885+03:00:Pending: 0
+2020-08-21T22:14:51.5205973+03:00:Skipped: 0
+2020-08-21T22:14:51.5209108+03:00:Failed: 0
+2020-08-21T22:14:51.5277704+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-08-21T22:14:51.5278780+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\music\source\repos\SpecFlowProject1\TestResults\Unnamed project__2020-08-21T221446.html'
+========== End of log file ==========

@@ -4,6 +4,6 @@
 @mytag
 Scenario: Get API GET response entering title
 	Given the title string "RandomDog"
-	And Api string Uri "https://api.publicapis.org/"
+	And Api string Uri "https://api.publicapis.org"
 	When request GET API giving title
 	Then the Description should be "Random pictures of dogs"

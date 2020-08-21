@@ -1,4 +1,5 @@
 ﻿using RestSharp;
+using RestSharp.Serialization.Json;
 using System;
 
 namespace SpecFlowProject1
@@ -11,7 +12,6 @@ namespace SpecFlowProject1
         public APISharpHandler(string url)
         {
             _client = new RestClient(url);
-            Console.WriteLine("Rest client url: " + url);
         }
 
         public T Execute<T>(RestRequest request) where T : new()
@@ -30,9 +30,10 @@ namespace SpecFlowProject1
 
         public Animal GetAnimal(string title)
         {
-            var request = new RestRequest("entries?title={Title}");
-            request.AddParameter("Title", title, ParameterType.UrlSegment);
-            return Execute<Animal>(request);
+            var request = new RestRequest("entries?title={Title}", Method.GET);
+            request.AddUrlSegment("Title", title);
+            //return Execute<Animal>(request);
+            
         }
     }
 }

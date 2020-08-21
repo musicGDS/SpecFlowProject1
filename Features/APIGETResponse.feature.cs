@@ -19,7 +19,7 @@ namespace SpecFlowProject1.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.3.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("API response", Description="\tIn order to check if API works fine\t", SourceFile="Features\\RandomDog.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("API response", Description="\tIn order to check if API works fine\t", SourceFile="Features\\APIGETResponse.feature", SourceLine=0)]
     public partial class APIResponseFeature
     {
         
@@ -27,7 +27,7 @@ namespace SpecFlowProject1.Features
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "RandomDog.feature"
+#line 1 "APIGETResponse.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]

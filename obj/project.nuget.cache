@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hs/gdyLY5IKdHR1+jQ0T9CzyMGR6v86csXqO1KW4dTvB32Hg7f+juOaecEGTee4fpftJFYcJctXaPaYr4I9qaQ==",
+  "dgSpecHash": "ixmGscO/4jpCXuqo1lpa5g1SKQblZFql5RRxe+BsHeMA+Etur8mRpRFH6ZxsxarxMQUyYykDn5OZFCyPxyiU0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\music\\source\\repos\\SpecFlowProject1\\SpecFlowProject1.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\music\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\music\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\music\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
     "C:\\Users\\music\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\music\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\music\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[3.12.0, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            },
             "SpecRun.SpecFlow": {
               "target": "Package",
               "version": "[3.3.41, )"

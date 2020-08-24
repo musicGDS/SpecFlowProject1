@@ -102,7 +102,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the title string \"RandomDog\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
- testRunner.And("Api string Uri \"https://api.publicapis.org/\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Api string Uri \"https://api.publicapis.org\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 8
  testRunner.When("request GET API giving title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

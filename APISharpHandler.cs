@@ -1,5 +1,6 @@
 ﻿using RestSharp;
 using System;
+using System.Collections.Generic;
 
 namespace SpecFlowProject1
 {
@@ -11,13 +12,12 @@ namespace SpecFlowProject1
         public APISharpHandler(string url)
         {
             _client = new RestClient(url);
-            Console.WriteLine("Rest client url: " + url);
         }
 
-        public T Execute<T>(RestRequest request) where T : new()
+        public List<T> Execute<T>(RestRequest request) where T : new()
         {
-            
-            var response = _client.Execute<T>(request);
+
+            var response = _client.Execute<List<T>>(request);
 
             if (response.ErrorException != null)
             {
@@ -28,10 +28,16 @@ namespace SpecFlowProject1
             return response.Data;
         }
 
-        public Animal GetAnimal(string title)
+        public List<Animal> GetAnimal(string title)
         {
-            var request = new RestRequest("entries?title={Title}");
-            request.AddParameter("Title", title, ParameterType.UrlSegment);
+            var request = new RestRequest("entries?title={title}", Method.GET);
+            request.RootElement = "entries";
+
+            request.AddParameter("title", title, ParameterType.QueryString);
+            var response = _client.Execute(request);
+
+            //return response.Data;
+
             return Execute<Animal>(request);
         }
     }

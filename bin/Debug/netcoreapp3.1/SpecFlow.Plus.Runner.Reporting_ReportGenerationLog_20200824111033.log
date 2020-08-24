@@ -1,0 +1,10 @@
+﻿2020-08-24T11:10:33.4239248+03:00;Thread#1;Info;Reading test run result from Json file "C:\Users\music\AppData\Local\Temp\tmpFB8F.tmp".
+2020-08-24T11:10:33.4259229+03:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\music\AppData\Local\Temp\tmpFB8F.tmp"
+2020-08-24T11:10:33.4259229+03:00;Thread#1;Info;Deserializing test run result
+2020-08-24T11:10:33.8634730+03:00;Thread#1;Info;Successfully deserialized test run result
+2020-08-24T11:10:33.8644719+03:00;Thread#1;Info;Loading test run result
+2020-08-24T11:10:33.8834525+03:00;Thread#1;Info;Successfully loaded test run result
+2020-08-24T11:10:33.8924419+03:00;Thread#1;Info;creating 1 report(s)
+2020-08-24T11:10:33.8924419+03:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2020-08-24T11:10:34.6321955+03:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

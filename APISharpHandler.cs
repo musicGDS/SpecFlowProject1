@@ -9,9 +9,9 @@ namespace SpecFlowProject1
 
         readonly IRestClient _client;
 
-        public APISharpHandler(string url)
+        public APISharpHandler()
         {
-            _client = new RestClient(url);
+            _client = new RestClient("https://api.publicapis.org");
         }
 
         public List<T> Execute<T>(RestRequest request) where T : new()
@@ -28,15 +28,13 @@ namespace SpecFlowProject1
             return response.Data;
         }
 
-        public List<Animal> GetAnimal(string title)
+        public List<Animal> GetAnimalBy(string by, string query)
         {
-            var request = new RestRequest("entries?title={title}", Method.GET);
+            var request = new RestRequest("entries?", Method.GET);
             request.RootElement = "entries";
 
-            request.AddParameter("title", title, ParameterType.QueryString);
+            request.AddParameter(by, query);
             var response = _client.Execute(request);
-
-            //return response.Data;
 
             return Execute<Animal>(request);
         }

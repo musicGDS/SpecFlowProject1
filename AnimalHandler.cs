@@ -10,5 +10,10 @@ namespace SpecFlowProject1
         {
             return animal.Description;
         }
+
+        public string GetTitle(Animal animal)
+        {
+            return animal.API;
+        }
     }
 }

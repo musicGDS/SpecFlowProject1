@@ -3,7 +3,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\music\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\music\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }

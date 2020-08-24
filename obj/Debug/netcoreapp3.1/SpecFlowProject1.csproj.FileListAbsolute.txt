@@ -249,4 +249,15 @@ C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\System.Net.
 C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\music\source\repos\SpecFlowProject1\obj\Debug\netcoreapp3.1\SpecFlowProject1.csproj.CoreCompileInputs.cache
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\specflow.json
+C:\Users\music\source\repos\SpecFlowProject1\bin\Debug\netcoreapp3.1\Config.json

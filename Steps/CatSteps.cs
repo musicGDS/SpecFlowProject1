@@ -16,6 +16,7 @@ namespace SpecFlowProject1.Steps
         [Given(@"the description string ""(.*)""")]
         public void GivenTheDescriptionString(string description)
         {
+            var a = ConfigReader.GetValue("url");
             _description = description;
         }
         

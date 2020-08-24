@@ -6,19 +6,19 @@ using System.Text;
 
 namespace SpecFlowProject1
 {
-    public class ConfigReader
+    public static class ConfigReader
     {
-        public IConfiguration Configuration;
-        public ConfigReader()
+        public static IConfiguration Configuration;
+        static ConfigReader()
         {
             var configurationBuilder = new ConfigurationBuilder()
-    .AddJsonFile(Path.Combine("specflow.json"))
-    .AddEnvironmentVariables();
+                .AddJsonFile(Path.Combine("specflow.json"))
+                .AddEnvironmentVariables();
             Configuration = configurationBuilder.Build();
         }
-        public string GetValue(string key)
+        public static string GetValue(string key)
         {
-            string result = Configuration.GetConnectionString(key);
+            string result = Configuration.GetSection("config").GetSection(key).Value;
             return result;
         }
     }

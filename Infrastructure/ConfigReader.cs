@@ -14,7 +14,7 @@ namespace SpecFlowProject1
             var configurationBuilder = new ConfigurationBuilder()
                 .AddJsonFile(Path.Combine("specflow.json"))
                 .AddEnvironmentVariables();
-            Configuration = configurationBuilder.Build();
+            Configuration = configurationBuilder.Build(); 
         }
         public static string GetValue(string key)
         {

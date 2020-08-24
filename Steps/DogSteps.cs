@@ -21,12 +21,6 @@ namespace SpecFlowProject1.Steps
             _title = animal;
         }
         
-        [Given(@"Api string Uri ""(.*)""")]
-        public void GivenApiStringUri(string url)
-        {
-            _url = url;
-
-        }
 
         [When(@"request GET API giving title")]
         public void WhenRequestGETAPIGivingTitle()

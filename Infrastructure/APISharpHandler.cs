@@ -8,10 +8,10 @@ namespace SpecFlowProject1
     {
 
         readonly IRestClient _client;
-
+        
         public APISharpHandler()
         {
-            _client = new RestClient("https://api.publicapis.org");
+            _client = new RestClient(ConfigReader.GetValue("url"));
         }
 
         public List<T> Execute<T>(RestRequest request) where T : new()
